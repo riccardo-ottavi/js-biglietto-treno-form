@@ -14,6 +14,7 @@ const userName = document.getElementById("nameInput")
 //seleziono l'outpout
 const myPriceOut = document.getElementById("priceOut");
 const myNameOut = document.getElementById("nameOut");
+const myKmOut = document.getElementById("kmOut");
 
 
 //invio form
@@ -32,6 +33,8 @@ myForm.addEventListener("submit",
         //scrittura out
         myNameOut.innerHTML = userName.value;
         myPriceOut.innerHTML = finalValue.toFixed(2)+"€";
+        myKmOut.innerHTML = kmInput.value;
+
     }
 );
 

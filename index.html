@@ -13,8 +13,8 @@
 </head>
 <body>
     <section>
+        <h2>Calcola il prezzo del mio biglietto</h2>
         <div class="container" id="infoBox">
-                <h2>Calcola il prezzo del mio biglietto</h2>
                 <form action="">
                     <input type="text" id ="nameInput" required placeholder="Nome e Cognome">
                     <input type="number" id="kmForm" placeholder="Inserisci i Km da percorrere" required>
@@ -27,10 +27,20 @@
     </section>
 
     <section>
+        <h2>Riepilogo</h2>
         <div class="container" id="recapBox">
-            <h2>Riepilogo</h2>
-                <p id="priceOut"></p>
+            <div id="nameRecap">
+                <h3>Nome passeggero</h3>
                 <p id="nameOut"></p>
+            </div>
+            <div id="priceRecap">
+                <h3>Prezzo</h3>
+                <p id="priceOut"></p>
+            </div>
+            <div id="kmRecap">
+                <h3>Distanza tragitto</h3>
+                <p id="kmOut"></p>
+            </div>
         </div>
     </section>
 

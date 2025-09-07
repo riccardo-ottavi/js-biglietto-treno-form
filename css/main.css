@@ -12,12 +12,37 @@
 }
 
 #recapBox {
-    height: 400px;
+    height: 200px;
     background-color: rgba(196, 196, 196, 0.6);
+    display: flex;
 }
 
 body {
     background-image: url(https://uploads.statics.raileurope.com/blog/images/4938-34996011ad4ac44b08d7431d0506045a.jpg?1713430864);
     background-size: cover;
     width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body input {
+    background-color: gainsboro
+}
+
+h2{
+    text-align: center;
+    color: black;
+}
+
+#recapBox div{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+p {
+    background-color: rgba(255, 255, 255, 0.678);
+}
+
+h3 {
+    color: rgba(255, 0, 0, 0.836);
 }
