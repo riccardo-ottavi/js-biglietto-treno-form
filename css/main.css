@@ -8,10 +8,16 @@
 /*debug*/
 #infoBox {
     height: 400px;
-    background-color: aqua;
+    background-color: rgby(238, 238, 238, 0.6);
 }
 
 #recapBox {
     height: 400px;
-    background-color: gray
+    background-color: rgby(150, 150, 150, 100, 0.6);
+}
+
+body {
+    background-image: url(https://uploads.statics.raileurope.com/blog/images/4938-34996011ad4ac44b08d7431d0506045a.jpg?1713430864);
+    background-size: cover;
+    width: 100%;
 }
