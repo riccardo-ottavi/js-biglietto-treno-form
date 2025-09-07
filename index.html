@@ -13,9 +13,12 @@
 </head>
 <body>
     <div class="container" id="box">
-            <input type="text" placeholder="Inserisci i Km da percorrere">
-            <input type="text" placeholder="Inserisci la tua età">
-            <button>Calcola prezzo</button>
+            <form action="">
+                <input type="number" id="kmForm" placeholder="Inserisci i Km da percorrere" required>
+                <input type="number" id="ageForm" placeholder="Inserisci la tua età" required>
+                <button id="calcBtn">Calcola prezzo</button>
+            </form>
+            <p id="out"></p>
     </div>
     
 
