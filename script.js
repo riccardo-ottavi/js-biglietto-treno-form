@@ -14,6 +14,21 @@ const myForm = document.querySelector("form");
 const myOut = document.getElementById("out");
 
 
-
+//invio form
+myForm.addEventListener("submit",
+    function (evento) {
+        //inibisco invio
+        evento.preventDefault();
+        //calcolo prezzo
+        let finalValue = kmInput.value * kmPrice; 
+        //verifico scontistica
+        if(ageInput.value < 18) {
+            finalValue = finalValue * underAgeDisc;
+        }else if(ageInput.value > 65){
+            finalValue = finalValue * ove65Disc;
+        }
+        
+    }
+)
 
 
