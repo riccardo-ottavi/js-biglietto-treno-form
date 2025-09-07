@@ -27,8 +27,9 @@ myForm.addEventListener("submit",
         }else if(ageInput.value > 65){
             finalValue = finalValue * ove65Disc;
         }
-        
+        //scrittura out
+        myOut.innerHTML = finalValue.toFixed(2)+"€";
     }
-)
+);
 
 
