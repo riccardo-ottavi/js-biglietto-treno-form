@@ -12,47 +12,47 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <section>
-        <div class = "section-title">
-                <h2>Prezzo del viaggio</h2>   
+    <div class="container" id="main-box">
+        <section>
+            <div class = "section-title">
+                    <h2>Prezzo del viaggio</h2>   
+                </div>
+            <div class="container" id="infoBox">
+                    <form action="">
+                        <div>
+                            <input type="text" id ="nameInput" required placeholder="Nome e Cognome">
+                            <input type="number" id="kmForm" placeholder="Inserisci i Km da percorrere" required>
+                            <input type="number" id="ageForm" placeholder="Inserisci la tua età" required>
+                        </div>
+                        <div id="btn-box">
+                            <button id="calcBtn" class="btn btn-success">Calcola prezzo</button>
+                            <button id="calcBtn" class="btn btn-light">Annulla</button>
+                        </div>
+                    </form>
+                    
             </div>
-        <div class="container" id="infoBox">
-                <form action="">
-                    <div>
-                        <input type="text" id ="nameInput" required placeholder="Nome e Cognome">
-                        <input type="number" id="kmForm" placeholder="Inserisci i Km da percorrere" required>
-                        <input type="number" id="ageForm" placeholder="Inserisci la tua età" required>
-                    </div>
-                    <div>
-                        <button id="calcBtn" class="btn btn-success">Calcola prezzo</button>
-                        <button id="calcBtn" class="btn btn-light">Annulla</button>
-                    </div>
-                </form>
-                
-        </div>
-    </section>
+        </section>
 
-    <section>
-        <div class = "section-title">
-                <h2>Riepilogo</h2>   
+        <section>
+            <div class = "section-title">
+                    <h2>Riepilogo</h2>   
+                </div>
+            <div class="container" id="recapBox">
+                <div id="nameRecap">
+                    <h3>Nome passeggero</h3>
+                    <p id="nameOut"></p>
+                </div>
+                <div id="priceRecap">
+                    <h3>Prezzo</h3>
+                    <p id="priceOut"></p>
+                </div>
+                <div id="kmRecap">
+                    <h3>Distanza tragitto</h3>
+                    <p id="kmOut"></p>
+                </div>
             </div>
-        <div class="container" id="recapBox">
-            <div id="nameRecap">
-                <h3>Nome passeggero</h3>
-                <p id="nameOut"></p>
-            </div>
-            <div id="priceRecap">
-                <h3>Prezzo</h3>
-                <p id="priceOut"></p>
-            </div>
-            <div id="kmRecap">
-                <h3>Distanza tragitto</h3>
-                <p id="kmOut"></p>
-            </div>
-        </div>
-    </section>
-
+        </section>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

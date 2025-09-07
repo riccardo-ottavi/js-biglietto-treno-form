@@ -20,10 +20,21 @@ h1 {
     color: rgba(51, 2, 2, 0.836);
 }
 
+#main-box {
+    margin-top: 18vh;
+}
+
 #infoBox input {
     margin-top: 50px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;   
+}
+
+
+
+#btn-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 #recapBox {
@@ -60,9 +71,11 @@ h2{
 
 p {
     background-color: rgba(255, 255, 255, 0.678);
+    margin-top: 30px;
 }
 
 h3 {
+    font-size: 20px;
     color: rgba(51, 2, 2, 0.836);
 }
 
