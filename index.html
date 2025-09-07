@@ -12,22 +12,31 @@
     <title>Document</title>
 </head>
 <body>
+    
     <section>
-        <h2>Calcola il prezzo del mio biglietto</h2>
+        <div class = "section-title">
+                <h2>Prezzo del viaggio</h2>   
+            </div>
         <div class="container" id="infoBox">
                 <form action="">
-                    <input type="text" id ="nameInput" required placeholder="Nome e Cognome">
-                    <input type="number" id="kmForm" placeholder="Inserisci i Km da percorrere" required>
-                    <input type="number" id="ageForm" placeholder="Inserisci la tua età" required>
-                    <button id="calcBtn" class="btn btn-success">Calcola prezzo</button>
-                    <button id="calcBtn" class="btn btn-light">Annulla</button>
+                    <div>
+                        <input type="text" id ="nameInput" required placeholder="Nome e Cognome">
+                        <input type="number" id="kmForm" placeholder="Inserisci i Km da percorrere" required>
+                        <input type="number" id="ageForm" placeholder="Inserisci la tua età" required>
+                    </div>
+                    <div>
+                        <button id="calcBtn" class="btn btn-success">Calcola prezzo</button>
+                        <button id="calcBtn" class="btn btn-light">Annulla</button>
+                    </div>
                 </form>
                 
         </div>
     </section>
 
     <section>
-        <h2>Riepilogo</h2>
+        <div class = "section-title">
+                <h2>Riepilogo</h2>   
+            </div>
         <div class="container" id="recapBox">
             <div id="nameRecap">
                 <h3>Nome passeggero</h3>
