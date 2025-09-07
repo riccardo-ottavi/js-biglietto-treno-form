@@ -8,12 +8,12 @@
 /*debug*/
 #infoBox {
     height: 400px;
-    background-color: rgby(238, 238, 238, 0.6);
+    background-color: rgba(238, 238, 238, 0.6);
 }
 
 #recapBox {
     height: 400px;
-    background-color: rgby(150, 150, 150, 100, 0.6);
+    background-color: rgba(196, 196, 196, 0.6);
 }
 
 body {
