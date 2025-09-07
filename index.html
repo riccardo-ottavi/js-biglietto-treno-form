@@ -12,15 +12,26 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container" id="box">
-            <form action="">
-                <input type="number" id="kmForm" placeholder="Inserisci i Km da percorrere" required>
-                <input type="number" id="ageForm" placeholder="Inserisci la tua età" required>
-                <button id="calcBtn">Calcola prezzo</button>
-            </form>
-            <p id="out"></p>
-    </div>
-    
+    <section>
+        <div class="container" id="infoBox">
+                <h2>Calcola il prezzo del mio biglietto</h2>
+                <form action="">
+                    <input type="text" id ="nameInput" required placeholder="Nome e Cognome">
+                    <input type="number" id="kmForm" placeholder="Inserisci i Km da percorrere" required>
+                    <input type="number" id="ageForm" placeholder="Inserisci la tua età" required>
+                    <button id="calcBtn">Calcola prezzo</button>
+                    <button id="calcBtn">Annulla</button>
+                </form>
+                <p id="priceOut"></p>
+                <p id="nameOut"></p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" id="recapBox">
+            <h2>Riepilogo</h2>
+        </div>
+    </section>
 
     <script src="script.js"></script>
 </body>

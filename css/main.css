@@ -6,7 +6,12 @@
 
 
 /*debug*/
-#box {
-    height: 600px;
+#infoBox {
+    height: 400px;
     background-color: aqua;
+}
+
+#recapBox {
+    height: 400px;
+    background-color: gray
 }

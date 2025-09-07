@@ -9,9 +9,11 @@ const ove65Disc = 0.6;
 const kmInput = document.getElementById("kmForm");
 const ageInput = document.getElementById("ageForm");
 const myForm = document.querySelector("form");
+const userName = document.getElementById("nameInput")
 
 //seleziono l'outpout
-const myOut = document.getElementById("out");
+const myPriceOut = document.getElementById("priceOut");
+const myNameOut = document.getElementById("nameOut");
 
 
 //invio form
@@ -28,7 +30,8 @@ myForm.addEventListener("submit",
             finalValue = finalValue * ove65Disc;
         }
         //scrittura out
-        myOut.innerHTML = finalValue.toFixed(2)+"€";
+        myNameOut.innerHTML = userName.value;
+        myPriceOut.innerHTML = finalValue.toFixed(2)+"€";
     }
 );
 
