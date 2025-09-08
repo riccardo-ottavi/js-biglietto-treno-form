@@ -46,5 +46,6 @@ myDiscBtn.addEventListener("click",
         myNameOut.innerHTML = "";
         myPriceOut.innerHTML = "";
         myKmOut.innerHTML = "";
+        myForm.reset();
     }
 );
